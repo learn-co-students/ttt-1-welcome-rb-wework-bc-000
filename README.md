@@ -1,4 +1,73 @@
+# Welcome Message for Tic Tac ToeClose
+
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
 # Welcome Message for Tic Tac Toe
+## Overview
+We're going to build a simple program that implements only the very first thing a complete Tic 
+Tac Toe program would require, which is to greet the player with a welcome message.
+## Objectives
+1. Read the output from running `learn`.
+2. Use `puts` to print "Welcome to Tic Tac Toe!"
+3. Have tests pass locally by running `learn`.
+4. Submit solution.
+## Instructions
+1. Run `learn`
+2. Read output.
+3. Code solution in `lib/welcome.rb`
+4. Run `learn`
+5. Read output.
+6. If still broken, repeat 3-5
+7. If passing, submit with `learn submit`
+## Troubleshooting
+Here are some things you can try to get more clues to solve the lab.
+### 1. Try running `ruby lib/welcome.rb`
+When you run `ruby lib/welcome.rb` from your terminal you are asking the Ruby interpreter to 
+run your program. If you see no output, like below, that means there is no code in 
+`lib/welcome.rb` to print "Welcome to Tic Tac Toe!".
+![No Puts](http://learn-co-videos.s3.amazonaws.com/ruby/no.puts.in.code.gif)
+The solution to this is to make sure you have `puts "Welcome to Tic Tac Toe!"` in 
+`lib/welcome.rb`. A working program should look like:
+![Working program](http://learn-co-videos.s3.amazonaws.com/ruby/working.tic.tac.toe.rb.gif)
+**Hint: Make sure you've saved `lib/welcome.rb`.**
+
 
 ## Overview
 
